@@ -14,5 +14,12 @@ public class CalculaorMain {
         int subtration = Subtraction.subtractNumber(num1, num2);
         int multiplication = Multiplication.multiplyNumber(num1, num2);
         int divison = Division.divideNumber(num1, num2);
+
+
+
+        System.out.println("Addition of " + num1 + " and " + num2 + " is: " + addition);
+        System.out.println("Subtration of " + num1 + " and " + num2 + " is: " + subtration);
+        System.out.println("Multiplication of " + num1 + " and " + num2 + " is: " + multiplication);
+        System.out.println("Divison of " + num1 + " and " + num2 + " is: " + divison);
     }
 }
